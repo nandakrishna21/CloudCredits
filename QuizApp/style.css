@@ -1,0 +1,62 @@
+/* Background full screen and responsive */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1601121140276-b1acfa4a02d7'); /* Replace with your own if needed */
+  background-size: cover;
+  background-color: aquamarine;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered container */
+.quiz-container {
+  background-color: rgba(244, 229, 23, 0.95);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Input styling */
+input[type="text"] {
+  padding: 0.7rem;
+  font-size: 1rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Question list */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+/* Timer text */
+#timer {
+  color: red;
+}
